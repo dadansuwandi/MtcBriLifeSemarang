@@ -1,0 +1,961 @@
+Time: 05/09/2023 09:26:43:927 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:44:485 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:44:695 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','1233932017','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:44:714 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='1233932017' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:44:726 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:26:44:760 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:26:48:078 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'null', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:49:055 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:50:541 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:50:890 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:51:355 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:26:51:866 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:27:16:028 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:27:46:171 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:27:46:183 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:27:46:679 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:27:47:157 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:27:47:443 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:27:47:545 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:54:100 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:54:187 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:54:326 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','1233932017','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:54:327 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='1233932017' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:54:328 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:28:54:330 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:28:57:775 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:58:164 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:58:274 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:58:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:58:908 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'null', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:28:59:213 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:29:33:168 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:29:33:312 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:29:33:688 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:30:03:875 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:30:03:876 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:30:04:185 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:30:04:672 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:31:42:161 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2','None'
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:31:42:162 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2','None'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:32:24:045 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2','1'
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:32:24:046 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:47:906 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:47:943 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:48:017 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','1233932017','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:48:018 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='1233932017' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:48:018 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:35:48:019 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:35:50:464 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:50:579 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'null', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:51:052 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:51:066 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:51:578 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:52:091 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:55:679 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:35:55:800 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:01:903 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Open', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:01:955 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:02:467 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:03:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:11:246 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:11:477 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:11:494 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:17:487 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Pending', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:17:979 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:18:133 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:36:43:739 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Admin', 'Closed', '4','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:40:03:049 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:40:03:051 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:43:34:598 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:43:35:078 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:43:35:575 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:43:36:077 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:06:670 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:44:06:671 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:06:760 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:16:313 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:16:568 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:17:067 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:17:579 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:18:079 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:34:168 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:44:34:169 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:44:48:657 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+Message: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboard(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\ServiceTaskboard.asmx.vb:line 334
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:44:48:658 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:05:866 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:05:954 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:06:070 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','1233932017','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:06:071 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='1233932017' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:06:073 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1233932017','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:51:06:080 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 09:51:16:067 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:17:291 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:18:258 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:18:625 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:18:703 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'null', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:19:138 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:21:685 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:23:317 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:23:794 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:24:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:24:809 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:51:25:323 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:52:11:337 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:52:13:724 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:52:14:113 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:52:14:620 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:52:15:127 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:52:15:640 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:52:59:415 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:01:327 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:01:674 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:02:190 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:02:697 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:03:196 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:40:456 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:42:522 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:42:862 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:43:376 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:43:879 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:53:44:396 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:54:06:322 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:54:06:568 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:54:07:055 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:54:09:208 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:54:09:599 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:54:10:096 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:55:18:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:55:19:371 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:55:19:885 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:55:22:007 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:55:22:416 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:55:22:917 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:56:29:382 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:56:29:647 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:56:31:829 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:56:32:199 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:56:32:711 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:56:33:216 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:38:806 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:40:184 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Open', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:40:343 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:40:868 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:41:425 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:41:894 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:45:480 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:47:432 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Pending', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:47:609 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:48:126 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:48:625 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:49:139 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:58:734 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1233932017', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:57:59:219 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1233932017','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:58:01:439 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1233932017', 'Solved', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:58:01:813 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:58:02:309 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 09:58:02:829 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1233932017','UIDESK84'
+---------------------------Success-------------------------------------------------------
+

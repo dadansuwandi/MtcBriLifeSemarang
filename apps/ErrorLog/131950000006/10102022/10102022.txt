@@ -1,0 +1,667 @@
+Time: 10/10/2022 02:20:07:813 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000006','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:07:823 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:07:840 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000006'
+Message: The conversion of the varchar value '131950000006' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 181
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/10/2022 02:20:07:845 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000006'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:07:854 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000006','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:07:856 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000006' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:07:860 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/10/2022 02:20:08:091 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:11:236 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000006', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:13:407 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000006', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:13:440 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:13:965 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:17:051 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:19:976 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:20:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:20:138 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:20:646 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:21:155 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:26:349 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:26:387 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:40:487 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:40:616 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:40:701 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:40:999 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','CheckDay'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:41:217 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:20:41:506 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:24:55:463 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:24:57:507 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:24:59:422 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:24:59:822 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:24:59:860 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:00:343 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:00:369 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:00:879 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:06:679 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:06:803 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:06:884 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:07:174 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','CheckDay'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:07:207 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:07:392 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:13:383 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:15:445 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:15:589 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:15:607 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:16:105 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:16:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:16:995 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:25:17:502 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:06:009 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:08:654 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:08:789 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:08:815 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:09:321 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:09:822 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:10:376 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:10:918 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:671 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000006','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:684 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:707 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000006'
+Message: The conversion of the varchar value '131950000006' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 181
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:710 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000006'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:719 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000006','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:722 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000006' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:726 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/10/2022 02:26:23:859 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:27:022 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000006', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:29:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000006', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:35:591 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:26:36:142 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:28:881 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:33:235 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:33:486 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:33:507 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:34:001 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:34:016 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:42:309 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:27:42:335 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:28:06:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:28:06:492 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:28:06:600 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:28:06:690 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:28:07:001 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','CheckDay'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:28:07:207 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:16:154 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:18:447 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:18:572 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:18:612 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:19:109 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:19:605 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:20:159 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:20:661 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:27:426 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:27:450 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','CheckDay'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:27:578 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:27:674 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:28:012 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:30:28:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:45:29:016 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:45:29:453 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:45:31:056 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:45:31:569 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:45:39:101 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:45:39:638 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:45:55:397 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK48'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:00:264 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:04:411 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:04:707 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:05:111 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:05:149 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:05:690 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:12:427 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:46:12:947 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:18:842 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000006' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:22:910 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000006','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:23:078 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-10','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:23:130 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:23:615 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000006','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:24:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:25:063 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:25:575 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000006','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:32:318 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:32:424 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:32:482 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:32:522 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-09','2022-10-10','131950000006','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:32:831 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000006','layer1','2022-10-09','2022-10-10'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/10/2022 02:51:33:360 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-09','2022-10-10','131950000006','CheckDay'
+---------------------------Success-------------------------------------------------------
+

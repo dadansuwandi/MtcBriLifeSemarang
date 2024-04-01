@@ -1,0 +1,1108 @@
+Time: 29/12/2022 10:31:11:487 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:11:505 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:11:602 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/12/2022 10:31:11:616 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:11:636 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:11:640 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:11:647 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/12/2022 10:31:13:777 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:14:676 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:14:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:15:332 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:36:869 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:31:37:378 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:32:29:553 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:32:30:093 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:34:57:449 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:34:57:961 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:08:554 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:08:573 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:08:605 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/12/2022 10:35:08:610 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:08:630 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:08:635 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:08:641 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/12/2022 10:35:11:085 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:12:045 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:12:110 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:12:621 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:19:752 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:20:262 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:28:224 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:35:28:736 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:36:32:979 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:36:33:486 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:36:44:239 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:36:44:747 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:37:20:952 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:37:21:459 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:37:55:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:37:55:835 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:04:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:04:722 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:05:222 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:05:722 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:10:469 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6978','admin','UIDESK37'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:20:948 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSubMenuApplication '6978','0','Email Conversation','TrmMailConversation.aspx?Refid=','N','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:21:549 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:24:613 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:25:125 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:25:649 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:26:159 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:34:009 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:34:562 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:56:609 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:38:57:118 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:39:23:825 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:39:24:336 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:40:00:464 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:40:00:975 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:18:541 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:18:581 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:18:769 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/12/2022 10:56:18:790 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:18:836 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:18:842 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:18:849 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/12/2022 10:56:23:024 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:23:685 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:23:806 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:24:084 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:32:901 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:33:405 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:35:219 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurm','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:35:340 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurma','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:41:949 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurm','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:56:42:950 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown '[object Object]','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:03:434 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolo','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:03:637 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolon','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:03:758 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:04:202 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong ','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:04:435 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong c','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:04:592 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong ch','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:04:693 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong che','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:05:402 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong ch','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:05:751 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong c','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:06:355 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong ce','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:06:542 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong cek','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:07:656 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong ce','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:07:859 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong c','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:08:019 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong ','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:08:140 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolong','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:08:300 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolon','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:08:442 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'tolo','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:09:019 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown '[object Object]','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:54:217 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:57:54:740 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:10:003 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:10:502 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:11:559 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'mint','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:11:636 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'minta','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:12:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'minta ','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:12:693 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'minta b','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:12:800 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'minta be','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:14:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'minta b','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:14:558 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'minta ','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:15:086 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'minta','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:15:272 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'mint','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:15:865 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown '[object Object]','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:52:905 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:53:438 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:55:739 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beru','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:55:883 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'berub','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:56:099 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beruba','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:56:344 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'berubah','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:58:610 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beruba','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:58:813 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'berub','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:58:58:965 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beru','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:00:876 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beru','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:01:021 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'berub','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:01:145 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beruba','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:01:236 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'berubah','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:05:949 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beruba','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:06:109 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'berub','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:06:286 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'beru','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:07:979 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:08:027 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:09:481 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:10:984 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:11:118 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data ','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:11:537 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data p','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:11:718 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data po','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:11:958 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data pol','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:12:130 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:12:220 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:13:525 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:13:697 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data pol','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:13:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data po','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:13:984 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data p','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:14:146 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data ','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:14:267 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'data','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:16:674 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurm','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:16:884 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurma','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:17:011 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurman','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:17:963 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurma','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:18:125 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurm','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:24:150 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurm','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 10:59:24:389 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurma','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:00:35:920 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:00:36:433 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:00:47:644 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:00:48:135 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:00:50:702 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurm','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:00:50:838 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'nurma','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:20:122 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:20:602 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:23:786 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'peru','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:23:879 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'perub','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:24:056 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'peruba','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:24:128 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'perubah','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:24:599 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'perubah ','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:25:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'perubah','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:25:517 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'peruba','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:25:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'perub','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:25:825 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'peru','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:27:413 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:01:27:508 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:02:29:047 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:02:29:569 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:02:31:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:02:31:925 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:27:48:372 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:27:48:885 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:28:09:681 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:28:09:729 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:30:42:734 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:30:43:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:31:13:816 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:31:14:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:31:17:554 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:31:17:670 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:31:44:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:31:45:446 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:33:24:272 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:33:24:783 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:33:26:642 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:33:26:720 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:36:21:156 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:36:21:668 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:36:25:886 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:36:26:394 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:36:28:957 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:36:29:078 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:37:04:174 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:39:32:249 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:39:32:766 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:39:36:759 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:39:37:050 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:40:17:958 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:40:18:467 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:32:573 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:33:073 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:37:709 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:38:216 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:40:361 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'poli','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:40:464 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:41:113 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polisn','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:41:310 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polisnu','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:42:256 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polisn','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2022 11:42:42:416 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'polis','SearchingEmail','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+

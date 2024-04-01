@@ -1,0 +1,1116 @@
+Time: 17/11/2022 08:25:05:012 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:05:032 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:05:191 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 08:25:05:209 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:05:250 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:05:253 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:05:263 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 08:25:09:436 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:09:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:09:764 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:10:269 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:20:242 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:21:068 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:21:239 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','null;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:21:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:22:281 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','null;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:22:776 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','null;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:24:400 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:24:898 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:25:403 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:25:906 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:29:356 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:29:993 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:30:375 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:25:30:877 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:23:101 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:23:684 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:25:917 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:25:955 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:26:429 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:26:926 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:36:029 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:36:052 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:36:092 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 08:28:36:099 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:36:118 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:36:124 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:36:131 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 08:28:39:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:39:581 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:40:294 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:40:602 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:48:995 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:49:075 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:49:598 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:50:093 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:50:606 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:51:106 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:55:763 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:56:274 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:56:784 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:28:57:306 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:43:097 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:43:645 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:44:115 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:44:637 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:45:084 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:45:587 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:46:090 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:46:616 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:57:372 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:57:389 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:57:426 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 08:31:57:430 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:57:463 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:57:468 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:31:57:473 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 08:32:00:501 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:01:747 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:02:368 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:02:887 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:11:826 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:12:342 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:12:381 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:12:880 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:13:398 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:14:513 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:16:771 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:17:282 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:17:800 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:18:218 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:18:307 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:18:719 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:19:262 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:19:784 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:22:779 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:23:290 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:24:444 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:24:727 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:24:815 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:25:251 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:25:766 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:32:26:278 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:33:13:135 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:33:13:655 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:33:14:139 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:33:14:657 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-10-15','2022-10-18'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:37:31:410 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-11-15','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:37:31:917 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:37:32:431 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-11-15','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 08:37:32:938 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-11-15','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:42:58:572 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:42:58:594 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:42:59:188 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 09:42:59:212 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:42:59:232 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:42:59:238 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:42:59:245 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 09:43:02:277 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:43:02:521 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:43:03:208 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:43:03:524 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:44:17:033 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:44:17:296 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:44:17:471 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:44:18:034 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:44:18:484 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:44:19:000 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:23:622 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:24:132 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:25:455 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:25:960 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:26:463 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:27:281 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:41:030 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:41:539 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:42:916 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:43:429 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:43:946 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:46:44:446 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:53:48:116 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:53:48:156 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:53:48:625 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:53:48:674 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:53:49:144 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:53:49:660 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:02:897 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:02:921 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:02:966 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 09:54:02:974 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:02:996 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:03:005 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:03:013 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 09:54:05:147 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:05:786 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:05:866 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:06:576 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:12:674 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:13:190 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:13:230 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:13:746 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:14:261 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:54:14:778 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:55:15:422 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:55:15:710 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:55:16:603 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:55:16:751 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:55:17:248 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:55:17:761 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:56:50:808 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:56:51:326 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:56:51:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:56:52:062 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:56:52:379 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:56:52:920 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:23:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:24:106 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:24:183 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:24:616 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:25:119 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:25:634 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:56:130 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:56:151 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:56:211 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 09:57:56:221 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:56:241 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:56:251 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:56:259 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2022 09:57:58:537 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:57:59:341 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:00:299 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:00:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:17:527 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:18:041 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:18:621 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:19:127 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:19:642 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-10-17','2022-10-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:58:20:144 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:59:38:599 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:59:38:859 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','undefined;','2022-11-17','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:59:39:109 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:59:39:388 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','undefined;','2022-11-17','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:59:39:865 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','undefined;','2022-11-17','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 09:59:40:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 10:00:19:389 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_SummaryAgentMail 'admin','service.desk@brilife.co.id;','2022-11-15','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 10:00:20:382 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK78'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 10:00:20:418 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_QiwingMail 'admin','service.desk@brilife.co.id;','2022-11-15','2022-11-17'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2022 10:00:20:934 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','service.desk@brilife.co.id;','2022-11-15','2022-11-17'
+---------------------------Success-------------------------------------------------------
+

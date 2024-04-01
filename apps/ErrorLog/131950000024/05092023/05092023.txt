@@ -1,0 +1,205 @@
+Time: 05/09/2023 03:41:11:882 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000024','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:11:939 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000024','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:053 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:123 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:334 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000024','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:337 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000024' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:341 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000024','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:364 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:433 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000024','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:434 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000024' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:435 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000024','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 03:41:12:437 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 05/09/2023 03:41:16:461 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000024', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:16:542 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:17:157 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000024', 'null', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:17:512 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000024','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:18:025 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:18:540 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:23:967 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000024', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:25:628 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000024', 'Closed', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:25:654 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000024','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:25:687 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:26:192 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:26:707 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:41:269 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000024', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:41:707 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000024','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:41:732 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:43:814 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000024', 'Open', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:44:355 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:41:45:069 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:42:26:966 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000024', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:42:27:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000024','UIDESK82'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:42:27:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:42:29:306 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000024', 'Closed', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:42:29:740 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:42:30:252 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000024','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/09/2023 03:44:16:329 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk12345!'
+---------------------------Success-------------------------------------------------------
+

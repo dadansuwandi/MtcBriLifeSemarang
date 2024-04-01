@@ -1,0 +1,45 @@
+Time: 21/10/2022 09:29:34:018 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='4_Report_email.aspx' OR UrlUser2='4_Report_email.aspx' OR UrlUser3='4_Report_email.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 09:29:46:255 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='FileManagerMail.aspx' OR UrlUser2='FileManagerMail.aspx' OR UrlUser3='FileManagerMail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 09:35:48:880 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 09:35:48:881 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 09:37:04:201 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='FileManagerMail.aspx' OR UrlUser2='FileManagerMail.aspx' OR UrlUser3='FileManagerMail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 10:06:20:475 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_Dashboard_Email_Summary 'admin','cs@brilife.go.id','2022-09-01','2022-10-21'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 02:36:21:416 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 04:08:16:845 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Frame_DashboardEmail.aspx' OR UrlUser2='Frame_DashboardEmail.aspx' OR UrlUser3='Frame_DashboardEmail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/10/2022 09:28:38:718 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmUserManagement.aspx' OR UrlUser2='TrmUserManagement.aspx' OR UrlUser3='TrmUserManagement.aspx')
+---------------------------Success-------------------------------------------------------
+

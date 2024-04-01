@@ -1,0 +1,342 @@
+Time: 25/11/2022 09:34:17:122 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:17:295 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:17:970 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+Message: Conversion failed when converting the varchar value 'admin' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 25/11/2022 09:34:18:001 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:18:085 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:18:090 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:18:104 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 173
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 25/11/2022 09:34:28:089 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:29:848 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:31:605 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:31:747 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:50:180 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK16'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:50:509 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK20'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:50:973 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:51:554 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:34:52:654 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK18'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:12:862 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_TrxOutboundHeader where call_created_date between '2022-11-25 00:01' And '2022-11-25 23:59'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:12:941 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertHeader_Example 'ULPROTEKSIJU021','a@gmail.com','00.22.07.000003.00','08971868887','ASURANSISALAM-LINKPROTEKSISYARIAH','ULPROTEKSIJU021','88000000''40000000','40000000','Bulanan','11','SLM001','XX','2207000005''2022-10-11','2022-11-24','Wanita','1', '70','50','50','50', '50', '1','admin','25112022','4'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:13:272 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertFund_Example '25112022','00.22.07.000003.00','DARLINKDINAMISSYARIAH','25','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:13:803 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertFund_Example '25112022','00.22.07.000003.00','DARLINKSTABILSYARIAH','25','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:13:904 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertFund_Example '25112022','00.22.07.000003.00','DARLINKAMANSYARIAH','25','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:14:013 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertHeader_Example 'TCICHI','nadzief@salamenterprise.com','00.22.10.000001.02','088888888888','SALAMDANASISWASYARIAH','TCICHI','229167''229167','0','Bulanan','3','SLM001','1111111111','2210000001''NULL','2022-11-24','Wanita','1', '50','22.5','22.5','22.5', '22.5', '1','admin','25112022','4'
+Message: Conversion failed when converting date and/or time from character string.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.welcomeAPI1.API_InsertHeader(String call_name, String call_jenis_kelamin, String call_nama_product, String call_polis_number, String call_nama_tertanggung, String call_uang_pertanggungan, String call_premi_dasar_berkala, String call_premi_topup, String call_cara_bayar, String call_tanggal_debet, String call_nama_tenaga_penjualan, String call_biaya_akuisisi_1, String call_biaya_akuisisi_2, String call_nominal_COI, String call_nominal_COR, String call_email, String call_phone_number, String call_flaging_nasabah, String call_biaya_akuisisi_1_add, String call_biaya_akuisisi_2_add, String call_biaya_akuisisi_3_add, String call_biaya_akuisisi_4_add, String call_biaya_akuisisi_5_add, String call_product_id, String call_username, String call_upload_id, String call_jumlah_data) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\welcomeAPI.asmx.vb:line 222
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 25/11/2022 09:35:14:022 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertHeader_Example 'TCICHI','nadzief@salamenterprise.com','00.22.10.000001.02','088888888888','SALAMDANASISWASYARIAH','TCICHI','229167''229167','0','Bulanan','3','SLM001','1111111111','2210000001''NULL','2022-11-24','Wanita','1', '50','22.5','22.5','22.5', '22.5', '1','admin','25112022','4'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:14:218 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertWaris_Example '25112022','00.22.10.000001.02','ANAKTCICHI','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:14:322 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertWaris_Example '25112022','00.22.10.000001.02','ANAK','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:14:635 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000001.02','BringinDanasiswaSyariah','1973','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:14:706 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000001.02','PersonalAccidentDanasiswa','770','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:14:754 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000001.02','TermAnak','0','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:054 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000001.02','TermInsuranceWaiver','4306','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:167 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000001.02','TotalPermanentDisability','584','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:262 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertFund_Example '25112022','','','','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:367 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertHeader_Example 'TESUATWELLCOMECALL4','baidaaah@gmail.com','00.22.10.000011.02','0895333875650','SALAMINVESTAMASYARIAH','TESUATWELLCOMECALL4','1000000''1000000','0','Bulanan','18','SLM001','XXX','2210000013''NULL','2022-11-24','Wanita','1', '50','22.5','22.5','22.5', '22.5', '1','admin','25112022','4'
+Message: Conversion failed when converting date and/or time from character string.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.welcomeAPI1.API_InsertHeader(String call_name, String call_jenis_kelamin, String call_nama_product, String call_polis_number, String call_nama_tertanggung, String call_uang_pertanggungan, String call_premi_dasar_berkala, String call_premi_topup, String call_cara_bayar, String call_tanggal_debet, String call_nama_tenaga_penjualan, String call_biaya_akuisisi_1, String call_biaya_akuisisi_2, String call_nominal_COI, String call_nominal_COR, String call_email, String call_phone_number, String call_flaging_nasabah, String call_biaya_akuisisi_1_add, String call_biaya_akuisisi_2_add, String call_biaya_akuisisi_3_add, String call_biaya_akuisisi_4_add, String call_biaya_akuisisi_5_add, String call_product_id, String call_username, String call_upload_id, String call_jumlah_data) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\welcomeAPI.asmx.vb:line 222
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:377 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertHeader_Example 'TESUATWELLCOMECALL4','baidaaah@gmail.com','00.22.10.000011.02','0895333875650','SALAMINVESTAMASYARIAH','TESUATWELLCOMECALL4','1000000''1000000','0','Bulanan','18','SLM001','XXX','2210000013''NULL','2022-11-24','Wanita','1', '50','22.5','22.5','22.5', '22.5', '1','admin','25112022','4'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:680 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertWaris_Example '25112022','00.22.10.000011.02','XX','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:784 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000011.02','BringinInvestamaSyariah','9474','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:889 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000011.02','CriticalIllness','3738','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:15:994 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000011.02','HospitalCashPlanIndividu','37716','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:16:098 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000011.02','PersonalAccident','2400','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:16:202 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000011.02','TotalPermanentDisability','2540','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:16:307 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertFund_Example '25112022','','','','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:16:412 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertHeader_Example 'TCBFA02','-','00.22.10.000016.02','085156742490','SALAMDANASISWASYARIAH','TCBFAPESERTA02','2666667''2666667','0','Tahunan','31','SLM001','3123123123','2210000030''NULL','2022-11-24','Wanita','1', '50','22.5','22.5','22.5', '22.5', '1','admin','25112022','4'
+Message: Conversion failed when converting date and/or time from character string.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.welcomeAPI1.API_InsertHeader(String call_name, String call_jenis_kelamin, String call_nama_product, String call_polis_number, String call_nama_tertanggung, String call_uang_pertanggungan, String call_premi_dasar_berkala, String call_premi_topup, String call_cara_bayar, String call_tanggal_debet, String call_nama_tenaga_penjualan, String call_biaya_akuisisi_1, String call_biaya_akuisisi_2, String call_nominal_COI, String call_nominal_COR, String call_email, String call_phone_number, String call_flaging_nasabah, String call_biaya_akuisisi_1_add, String call_biaya_akuisisi_2_add, String call_biaya_akuisisi_3_add, String call_biaya_akuisisi_4_add, String call_biaya_akuisisi_5_add, String call_product_id, String call_username, String call_upload_id, String call_jumlah_data) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\welcomeAPI.asmx.vb:line 222
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 25/11/2022 09:35:16:421 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertHeader_Example 'TCBFA02','-','00.22.10.000016.02','085156742490','SALAMDANASISWASYARIAH','TCBFAPESERTA02','2666667''2666667','0','Tahunan','31','SLM001','3123123123','2210000030''NULL','2022-11-24','Wanita','1', '50','22.5','22.5','22.5', '22.5', '1','admin','25112022','4'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:147 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertWaris_Example '25112022','00.22.10.000016.02','BAGUSFATWANALFIAT','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:218 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertWaris_Example '25112022','00.22.10.000016.02','FATWANALFIAT','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:459 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000016.02','BringinDanasiswaSyariah','2320','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:560 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000016.02','PersonalAccidentDanasiswa','986','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:664 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000016.02','TermAnak','0','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:769 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000016.02','TermInsuranceWaiver','4253','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:873 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000016.02','CriticalIllness','2874','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:17:978 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.10.000016.02','TotalPermanentDisability','585','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:18:081 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertFund_Example '25112022','','','','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:18:186 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '25112022','admin','UIDESK23'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:18:516 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertWaris_Example '25112022','00.22.07.000003.00','XX','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:19:015 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.07.000003.00','ManfaatBebasKontribusiDasarBerkala','369667','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:19:648 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.07.000003.00','ManfaatMeninggalDuniaAkibatKecelakaan','53000','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:20:033 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertRider_Example '25112022','00.22.07.000003.00','AsuransiDasar','410583','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/11/2022 09:35:20:589 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxOutbound_API_InsertFund_Example '25112022','00.22.07.000003.00','DARLINKAGRESIFSYARIAH','25','admin'
+---------------------------Success-------------------------------------------------------
+

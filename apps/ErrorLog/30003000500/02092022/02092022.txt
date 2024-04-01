@@ -1,0 +1,84 @@
+Time: 02/09/2022 03:38:19:343 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '30003000500','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:19:405 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:19:510 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','30003000500','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:19:511 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='30003000500' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:19:512 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/09/2022 03:38:20:170 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='30003000500' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:21:130 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '30003000500', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:23:126 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '30003000500', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:23:496 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:24:001 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:26:170 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='30003000500' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:26:916 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '30003000500'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:27:736 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '30003000500','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:27:941 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/09/2022 03:38:28:439 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK66'
+---------------------------Success-------------------------------------------------------
+

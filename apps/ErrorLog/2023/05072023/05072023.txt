@@ -1,0 +1,40 @@
+Time: 05/07/2023 02:09:49:373 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/07/2023 02:12:20:829 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/07/2023 02:15:29:651 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/07/2023 03:12:48:943 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/07/2023 03:12:49:161 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='WFPK0DMQN8N61Z0Q76QMH5IBU1SA0F30I5KXKKYY4YJHKNWHLN' WHERE USERNAME ='131950000001'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/07/2023 03:14:37:749 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/07/2023 04:08:14:312 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/07/2023 04:08:14:530 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ZDWCFA5I2XXILUYWRGW1UOJDLQP2S2KHIDF2NPR41FU7VOFGTD' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+

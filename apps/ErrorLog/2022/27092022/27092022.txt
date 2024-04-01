@@ -1,0 +1,425 @@
+Time: 27/09/2022 09:41:45:410 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:31:555 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:49:18:333 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:27:111 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:24:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:46:215 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:08:01:813 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:09:36:692 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:36:324 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:01:258 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:17:29:285 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:00:254 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:33:255 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:08:714 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:41:468 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:48:703 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:32:970 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:35:574 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:17:660 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:39:33:775 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:45:41:242 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:40:948 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:49:13:998 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:00:785 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:22:568 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:53:09:206 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:38:793 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:45:999 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000012' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:46:000 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000012' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-9-27' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:46:040 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000012' And call_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:48:312 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='081391396466' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:48:321 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='081391396466' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:48:323 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:48:355 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='211904' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:48:369 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:48:456 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='211904' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:48:551 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='08072022' and call_polis_number = '82074317' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:15:472 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:22:338 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:26:975 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:229 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:29:01:200 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:19:536 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:25:485 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:25:485 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-9-27' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:25:610 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000004' And call_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:29:056 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='081248431650' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:29:063 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='081248431650' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:29:063 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:29:089 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='236505' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:29:186 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:29:233 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='236505' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:29:322 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='29082022' and call_polis_number = '82103384' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:13:246 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:13:246 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-9-27' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:13:247 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000004' And call_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:14:948 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%081248431650%' or call_phone_number like'%081248431650%' or call_status like'%081248431650%' or call_polis_number like'%081248431650%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:33:606 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:33:607 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-9-27' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:33:607 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000004' And call_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:35:315 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%081248431650%' or call_phone_number like'%081248431650%' or call_status like'%081248431650%' or call_polis_number like'%081248431650%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:53:474 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:53:475 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-9-27' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:53:476 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000004' And call_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:55:964 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%081248431650%' or call_phone_number like'%081248431650%' or call_status like'%081248431650%' or call_polis_number like'%081248431650%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:58:600 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%08124843165%' or call_phone_number like'%08124843165%' or call_status like'%08124843165%' or call_polis_number like'%08124843165%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:58:782 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%0812484316%' or call_phone_number like'%0812484316%' or call_status like'%0812484316%' or call_polis_number like'%0812484316%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:58:942 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%081248431%' or call_phone_number like'%081248431%' or call_status like'%081248431%' or call_polis_number like'%081248431%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:59:112 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%08124843%' or call_phone_number like'%08124843%' or call_status like'%08124843%' or call_polis_number like'%08124843%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:59:266 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%0812484%' or call_phone_number like'%0812484%' or call_status like'%0812484%' or call_polis_number like'%0812484%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:59:444 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%081248%' or call_phone_number like'%081248%' or call_status like'%081248%' or call_polis_number like'%081248%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:59:616 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%08124%' or call_phone_number like'%08124%' or call_status like'%08124%' or call_polis_number like'%08124%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:59:787 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%0812%' or call_phone_number like'%0812%' or call_status like'%0812%' or call_polis_number like'%0812%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:00:690 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%%' or call_phone_number like'%%' or call_status like'%%' or call_polis_number like'%%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:07:924 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%081248431650%' or call_phone_number like'%081248431650%' or call_status like'%081248431650%' or call_polis_number like'%081248431650%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:10:738 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='081248431650' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:10:747 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='081248431650' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:10:748 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:10:749 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:10:769 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='236505' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:10:772 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='236505' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:35:10:929 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='29082022' and call_polis_number = '82103384' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:39:31:302 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status<>'0' or call_status<>'Closed') And call_created_date < '2022-9-27' And (Call_name like'%%' or call_phone_number like'%%' or call_status like'%%' or call_polis_number like'%%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:55:48:117 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status='0' or call_status<>'Closed') And call_created_date between '2022-9-27 00:01' And '2022-9-27 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:55:49:078 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-9-27' 
+---------------------------Success-------------------------------------------------------
+

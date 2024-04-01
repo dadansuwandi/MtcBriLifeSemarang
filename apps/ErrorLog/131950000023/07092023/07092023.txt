@@ -1,0 +1,105 @@
+Time: 07/09/2023 12:39:19:427 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000023','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:19:993 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:20:255 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000023','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:20:300 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000023' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:20:301 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000023','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/09/2023 12:39:20:305 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/09/2023 12:39:20:706 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000023' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:22:029 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000023', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:26:840 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000023', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:27:117 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000023','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:27:146 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000023','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:27:773 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:28:171 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:30:665 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000023' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:31:339 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:31:402 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000023'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:31:860 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000023','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:32:363 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/09/2023 12:39:33:189 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000023','1','layer1'
+---------------------------Success-------------------------------------------------------
+

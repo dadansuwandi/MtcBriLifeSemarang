@@ -1,0 +1,50 @@
+Time: 27/12/2022 09:33:13:839 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmMailSystem.aspx' OR UrlUser2='TrmMailSystem.aspx' OR UrlUser3='TrmMailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 09:36:14:235 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 09:36:14:325 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 09:36:14:341 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 09:36:14:598 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 09:36:28:307 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmMailSystem.aspx' OR UrlUser2='TrmMailSystem.aspx' OR UrlUser3='TrmMailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 11:10:01:798 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmMailSystem.aspx' OR UrlUser2='TrmMailSystem.aspx' OR UrlUser3='TrmMailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 01:18:06:565 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 03:08:27:692 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmMailConversation.aspx' OR UrlUser2='TrmMailConversation.aspx' OR UrlUser3='TrmMailConversation.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 27/12/2022 03:42:27:084 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmMailConversation.aspx' OR UrlUser2='TrmMailConversation.aspx' OR UrlUser3='TrmMailConversation.aspx')
+---------------------------Success-------------------------------------------------------
+

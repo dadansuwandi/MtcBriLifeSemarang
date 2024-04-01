@@ -1,0 +1,170 @@
+Time: 29/12/2023 09:31:37:934 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:31:38:327 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='M3SKF2X5JBO2JQL1HG16G1RLY3HUAHA4BGQEG2ALOXTFXMJCWG' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:40:43:964 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:40:53:040 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:40:53:083 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='WKLQS6GVNEOP8TDFYQ0O7RDBHIYXY84EROMMPRP01IMMS2UOA4' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:43:57:953 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:43:58:028 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='OIC877QVG3EOEA1GWJC6WLMADUBDY0R1D6OF43JTGFPT7ZDVH5' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 08:27:21:274 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 08:27:21:445 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='51DJRUQHRH6H3QZGFR6O3GV065QIO80GLHSHLCMHE0OHHH01WY' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 08:37:16:111 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 08:37:16:408 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BN6MCZ73E5GD5U40LBD6PC7TFJP60GJW0X2V86PJ4PXXNRAAIF' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:22:44:723 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:22:44:908 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BDHMZIQ3FW48BGHH1H5HXUVCZ78VFCVHTDTY3G5WKOOUPLFUUY' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:34:48:925 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:34:49:091 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='MPU0JWWHEGDHF6FD2R1MBCIALLDQ41FPNZL5FU1OKY6D0R5EII' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:38:56:735 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:38:56:778 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='4HX3W3SR7MKZF48FBOBFUKS3XVDPH0AJFU0HPAYTYDEXA7KDKD' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:44:04:820 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:44:04:996 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ZVH85YBU8EBBL7YA73N4THFQKVUJLAJ5RW31R40TCWYWNS840A' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:47:38:094 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 09:47:38:286 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='EICKIQALOZWVTSOQT68KL4YKBLE4K64T5ZA7XVSGBGZN2KZE7H' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:00:36:287 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:00:36:457 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='4N7V1KHCJSZZZV5EHBOKQAXRMLFPSHWMS8BN568WS6JPCWP4QZ' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:02:25:816 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:02:25:901 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='VLWOY8Y8OIXIL0L2HXHP1YGVRISHYACQC33IZ2RTZQ0GSRUCQK' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:05:01:486 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:05:01:674 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='AU3ZNUMLKKXB2G06OW8OI7AXLYFIQ4U4PG3P4MI1CCPXCCV1YT' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:12:29:790 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:12:29:955 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='LT4E4NX5FO7RC031OTE8U001POPYRJ7E848BELHEUH677IMR6T' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:37:51:310 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:37:51:898 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JRJBFWGQKZFQ7AV43DT2K85TBCOVTWU8Z2G3OJAHH40SOVFAYF' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:38:08:205 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:38:14:340 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/12/2023 10:38:14:445 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='PZRMUVEAP6DFSECXAZG6J4HLKSDOBEPE5IG7LNDU10IIJ5075J' WHERE USERNAME ='1655942023'
+---------------------------Success-------------------------------------------------------
+

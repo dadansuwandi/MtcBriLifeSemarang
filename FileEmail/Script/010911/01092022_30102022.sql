@@ -1,0 +1,3 @@
+SELECT * FROM UIDESK_TrxInboxEmail
+SELECT * FROM UIDESK_TrxSendEmail
+SELECT * FROM UIDESK_TrxEmailDetail

@@ -1,0 +1,625 @@
+Time: 25/12/2022 05:12:32:119 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:12:32:209 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='RR7IJ1NNXLGPCXK3LO1106KQNWEDOWZQOHQWLOEBXV63EKB4AB' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:12:41:286 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:12:41:307 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='MLUZSCIKT8PPCW6UT0XOPR5P2J83YLKRX15QS5JOQWCDBLPLUL' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:14:53:758 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:14:53:776 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='85EC6TOPBYWEL22VX2WXT0WUPOLCCYSQH35NKYXFVOHY664T4S' WHERE USERNAME ='1387922019'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:15:05:144 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:15:05:170 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='6IKO2EIEKF0IDBGS8I8LCN18266AOT372ONBBWOAODS0XKMAYC' WHERE USERNAME ='1387922019'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:26:30:599 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:26:30:704 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='65YRC8BHKY5KQU8INWQCUF1GEWNFPY365F6HTBTL6JHMFUCIF7' WHERE USERNAME ='1387922019'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:27:43:532 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:27:43:553 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='UJRVSMOC7XTB17TTSE6B5SX0QE6E4A6KA0LHYHL0EGPKYYE4ZE' WHERE USERNAME ='1233932017'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:30:16:597 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:30:16:615 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='CS8V3534JPA0OJW8SQNNLI5LOAJTU7A46DKVR1Q2HQMOQHDZ6I' WHERE USERNAME ='1233932017'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:37:07:453 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:37:07:465 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ZRG1JTP6RSDDTMCWIOSNRJKUBGKXQAMHTW2QDNBN0FT8W6PHMM' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:37:58:772 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:37:58:780 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ONX758EMX4HEBXBBZ2TWMAKH6GUARVVEMB4HMPLR14TWGL4CIH' WHERE USERNAME ='131950000010'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:38:08:964 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:38:08:974 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ZEPZONWB7IC0D33BWX0KBGWV4U04YYLXH3TO81U1URFJURF580' WHERE USERNAME ='131950000010'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:39:08:758 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:39:08:766 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='28WTY46I3TTWVI4SE3B1GW630YMW85FOUU1GTQHWHDXLJB6PH7' WHERE USERNAME ='1387922019'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:39:16:264 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 05:39:16:289 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='NLI1BCR5YC3QRQ3OT0RA3UGSM4MVA85F7AH6OVLIHH6486AGRM' WHERE USERNAME ='1387922019'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 09:59:24:288 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:01:12:518 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:01:12:545 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='UNOXBQ0PJO1NHX57RD57TN4KIFHE6SQ3GVMZPL5Q5TVN3OAT2L' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:01:20:497 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:01:20:506 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JL7NQX43BWBD2CJE6IVGJIR4EB3F1WDXKNVBZRPZ5IRD4M5MIQ' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:03:39:056 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:06:08:182 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:06:52:302 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:08:38:479 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:12:43:740 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:13:48:015 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:13:48:019 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='G0R7CKI7KCEFQ4IRL0Z38O06OLFEA6PJ8XVH34ISVTFG0YMVJC' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:14:01:911 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:15:11:996 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:15:41:557 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:16:04:153 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:16:04:158 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='YCOK1VE0HHMO07DNPCDKE2JHA5OF6NX0S2FKF1W1R10PG6ONOZ' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:16:13:019 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:16:28:623 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:16:31:692 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:16:44:202 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:17:09:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:17:09:512 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='YR5DPV11M8R5TG4DXNTVKFAKS0E6M6LURVKQT0GITP7HQMO2SD' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:17:18:339 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:17:57:908 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:19:12:612 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:19:44:240 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:20:02:015 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:20:07:205 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='SYSTEM' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:20:09:919 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='CUSTOMER' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:20:23:350 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:21:21:138 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:23:31:589 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:23:56:043 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:24:09:060 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:35:20:986 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:43:12:013 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:43:30:441 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:43:30:446 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='YF84MSPMVUR08QFNZ08EFZJAM3MPSUPN4E8WZZQP3THT1X0W3D' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:43:37:359 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:43:40:284 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:44:33:686 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:44:35:739 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:44:40:884 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:45:01:831 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:45:15:421 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:45:17:253 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:45:22:373 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:45:51:805 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:45:56:649 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:47:51:453 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:47:53:655 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:48:30:070 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:48:32:412 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:49:27:634 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:49:28:887 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:49:30:976 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:49:33:832 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:49:44:360 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='SYSTEM' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:50:22:703 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:50:25:010 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:50:28:287 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:50:31:123 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:50:43:422 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:50:48:938 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:50:53:629 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:51:17:222 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:51:19:091 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:51:25:557 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='2' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:56:01:055 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:57:14:254 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='CUSTOMER' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:57:41:583 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:57:57:629 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:58:26:537 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:58:26:543 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='5361ADN0OIKJ0DZ27PUDXQW0YJUOLRNXZ04UUZJNU3OE13B0UJ' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 10:58:53:732 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:02:10:200 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:02:10:232 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='KCJ1JYXAIFTPVEFBDKPV7GFKZXC0FC0EHL8BKIMQ57BWGPY03Z' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:02:19:622 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:04:02:538 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='CUSTOMER' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:05:45:645 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:06:48:379 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='CUSTOMER' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:07:30:791 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:09:46:480 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='11' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:10:05:478 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:10:17:500 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='11' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:20:21:553 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:20:21:566 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='AZWPS2WJZQAQHUIFP3TLO503XUOGTPXU1A8ZL5D7JM6RATHWJ8' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:20:28:947 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:20:34:411 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='11' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:20:47:495 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:20:56:078 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:21:56:553 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='CUSTOMER' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:22:51:489 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:25:14:813 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:25:23:124 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] where ID='12' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:25:32:593 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:25:37:362 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:26:08:116 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationSetting] WHERE CATEGORY='CUSTOMER' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:26:14:158 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+
+Time: 25/12/2022 11:26:21:816 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_NotificationTemplate] WHERE TYPE <> 'TICKET_ESKALASI_VENDOR' 
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,790 @@
+Time: 03/10/2022 01:48:45:435 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:45:482 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:45:486 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 01:48:45:488 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:45:490 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:45:490 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:45:491 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 01:48:45:522 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:46:471 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:48:117 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:48:432 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:48:48:936 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:18:735 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:19:888 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:19:909 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:21:582 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:21:939 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:23:444 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:24:438 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:24:966 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:25:244 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:25:750 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:28:096 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:31:658 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:32:111 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:32:438 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:52:32:951 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:57:30:153 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:57:31:495 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:57:31:889 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:57:32:210 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 01:57:32:226 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:14:26:969 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:11:907 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:11:909 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:11:967 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 02:28:11:968 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:11:971 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:11:972 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:11:973 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 02:28:12:006 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:12:661 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:12:915 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:12:918 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:28:14:342 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:26:527 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:27:167 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000003','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:27:212 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:27:504 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:27:507 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:27:728 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:28:236 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:28:748 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:34:545 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-01','2022-10-03','131950000003','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:34:557 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '131950000003','layer1','2022-10-01','2022-10-03'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:34:587 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-01','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:34:613 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-10-01','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:35:054 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-10-01','2022-10-03','131950000003','CheckDay'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:31:35:115 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-01','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:38:363 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:38:953 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000003','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:39:010 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-01','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:39:308 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:39:512 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:39:528 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:39:823 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:33:40:025 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:01:443 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:02:648 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000003','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:02:706 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-03','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:02:715 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:02:725 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:02:728 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:03:044 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:03:553 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:09:361 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-03','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:10:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-10-03','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:10:775 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-10-03','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:11:452 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-03','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:29:001 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:29:736 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:29:931 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:29:935 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 02:59:31:306 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:770 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:771 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:781 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:782 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:783 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:784 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:784 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 03:34:29:797 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:30:158 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:31:153 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:31:179 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 03:34:31:679 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:534 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:534 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:537 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:538 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:539 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:539 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:540 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:554 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:843 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:14:968 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:15:870 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:15:997 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:601 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:602 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:632 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:633 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:634 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:634 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:635 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 03/10/2022 04:01:23:814 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:28:081 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:28:085 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:29:069 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:29:093 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:37:120 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:38:161 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','131950000003','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:38:199 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:38:226 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:38:712 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:38:750 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-03','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:39:221 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000003','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:39:731 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:40:243 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:01:41:569 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-10-03','2022-10-03','131950000003','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:02:53:339 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:02:53:377 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:07:00:893 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:07:01:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:07:01:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:07:02:213 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 03/10/2022 04:07:02:326 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

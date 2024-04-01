@@ -1,0 +1,505 @@
+Time: 17/12/2023 10:54:46:291 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:54:53:426 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:54:57:970 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:55:11:672 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:55:17:392 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:46:889 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:47:316 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:47:626 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Adzhani','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:47:627 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Adzhani' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:47:627 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/12/2023 10:58:47:630 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/12/2023 10:58:48:061 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Adzhani' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:48:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Adzhani', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:48:879 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:49:653 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Adzhani','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:49:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Adzhani', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:50:372 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:50:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Adzhani','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 10:58:51:376 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:40:497 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:40:633 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:41:053 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Adzhani','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:41:054 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Adzhani' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:41:054 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Adzhani','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/12/2023 11:00:41:057 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/12/2023 11:00:41:679 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Adzhani' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:42:447 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Adzhani', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:42:527 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:42:935 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Adzhani', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:43:019 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:43:453 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Adzhani','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:43:764 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:43:971 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Adzhani','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:47:944 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Adzhani' And Url='TrmProvider.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:49:013 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:49:520 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:00:50:034 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:44:872 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Adzhani' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:010 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Adzhani','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:074 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:121 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:214 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Adzhani','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:457 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:485 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:523 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:629 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:46:883 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:47:569 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:47:986 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:48:417 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:08:48:932 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Adzhani','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:26:189 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Adzhani' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:004 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Adzhani','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:076 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:177 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:202 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Adzhani','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:281 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:300 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:320 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:340 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:27:514 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:28:021 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:28:576 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:29:063 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Adzhani','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:13:29:580 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:11:466 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Adzhani' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Adzhani','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:243 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:258 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:275 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Adzhani','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:348 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:455 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:504 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:558 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:12:731 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Adzhani','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:13:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:13:735 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:14:249 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:14:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:15:438 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'XXXX','UideskIndonesia','Adzhani','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:19:17:465 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231217111831','UideskIndonesia','Adzhani','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:00:609 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Adzhani' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:397 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Adzhani','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:438 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:452 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:522 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Adzhani','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:758 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:777 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:793 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Adzhani','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:01:863 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:02:372 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Adzhani','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:03:136 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:03:383 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:03:899 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Adzhani','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:06:349 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'XXXX','UideskIndonesia','Adzhani','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 11:20:07:605 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231217111831','UideskIndonesia','Adzhani','UIDESK313'
+---------------------------Success-------------------------------------------------------
+

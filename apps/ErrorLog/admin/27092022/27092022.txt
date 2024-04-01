@@ -1,0 +1,2768 @@
+Time: 27/09/2022 09:41:45:445 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:45:451 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:45:527 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:45:530 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:45:541 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 09:41:47:745 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:47:915 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:49:292 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:49:465 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:57:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:58:167 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:41:58:660 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:43:26:001 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:43:26:050 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:43:41:931 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_TableDataBoxCalls 'Admin','2022-08-26','2022-08-27'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:43:42:649 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_TableDashboard_Outbound 'Admin','2022-08-26','2022-08-27'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:43:43:061 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_TableDataBoxCalls 'Admin','2022-08-27','2022-08-27'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:43:43:545 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_TableDashboard_Outbound 'Admin','2022-08-27','2022-08-27'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:18:657 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_TableDashboard_Outbound 'Admin','2022-07-01','2022-09-27'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:18:966 AM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_TableDataBoxCalls 'Admin','2022-07-01','2022-09-27'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:31:567 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:31:845 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:32:353 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:40:231 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '131950000012','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:44:40:401 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','131950000012','Change'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:49:05:580 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:27:116 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:27:121 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:27:164 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:27:165 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:27:166 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 09:55:28:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:28:813 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:30:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:30:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:45:653 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxDepartment 'admin','0','0','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:45:960 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:55:46:463 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:58:02:939 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxDepartment 'admin','0','0','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:58:03:216 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 09:58:03:737 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:46:237 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:46:240 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:46:248 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:46:249 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:46:250 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 10:07:48:189 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:48:435 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:49:728 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:50:011 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 10:07:50:743 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:36:348 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:36:353 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:36:390 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:36:390 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:36:393 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 11:19:38:150 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:38:784 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:38:884 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:19:40:139 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:23:18:701 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:23:18:767 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:23:20:214 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 11:23:20:677 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:01:301 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:01:304 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:01:323 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:01:324 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:01:326 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 01:15:03:122 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:03:179 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:03:624 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:03:648 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:23:556 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:23:952 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:15:24:116 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:18:48:201 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:18:48:303 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:18:48:808 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:00:257 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:00:259 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:00:268 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:00:268 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:00:269 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 01:19:01:018 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:01:073 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:02:521 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:02:581 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:06:060 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:06:148 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:06:653 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:22:899 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:23:141 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:23:644 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:34:889 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:35:163 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:19:35:676 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:29:30:562 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:29:30:641 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:29:31:145 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:32:12:352 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:32:12:423 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:32:12:923 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:33:23:072 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:33:23:147 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:33:23:654 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:33:33:902 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:33:33:981 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:33:34:497 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:34:39:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:34:39:233 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:34:39:734 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:34:54:058 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:34:54:180 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:34:54:685 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:35:08:309 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:35:08:521 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:35:09:037 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:37:30:120 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:37:30:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:37:30:753 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:37:39:763 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:37:39:874 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:37:40:381 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:38:19:440 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:38:19:545 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:38:20:056 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:39:28:335 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:39:28:447 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:39:28:964 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:39:46:689 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:39:46:807 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:39:47:309 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:33:275 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:33:277 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:33:304 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:33:305 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:33:307 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 01:52:43:418 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:43:970 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:44:290 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:52:44:811 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:02:562 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:02:619 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:03:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:05:413 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '0','Generate','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:06:555 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:06:669 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:07:182 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:53:33:096 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:08:717 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:08:720 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:08:728 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:08:728 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:08:729 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 01:56:09:419 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:09:463 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:10:923 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:10:999 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:18:245 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:18:274 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:18:776 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:56:25:181 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:57:48:295 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:57:48:351 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:57:48:863 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 01:57:52:178 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:00:09:962 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:00:10:076 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:00:10:585 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:00:13:859 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:00:19:972 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:20:112 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:20:150 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:20:664 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:23:985 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:30:525 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:41:471 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:41:473 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:41:479 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:41:480 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:41:480 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:02:42:215 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:42:265 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:43:730 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:02:44:183 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:09:722 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:09:806 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:11:219 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:11:699 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:17:759 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:17:864 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:18:377 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:21:300 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:03:26:113 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:16:734 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:16:842 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:17:345 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:21:206 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:52:688 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:52:807 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:53:320 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:05:56:090 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:08:44:880 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:08:44:957 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:08:45:464 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:08:48:438 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:33:718 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:33:738 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:34:244 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:37:599 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:48:707 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:48:710 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:48:716 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:48:716 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:48:717 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:14:49:426 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:49:472 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:50:918 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:14:51:015 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:15:09:673 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:15:09:769 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:15:10:278 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:15:13:711 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:16:05:182 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:16:05:407 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:16:05:923 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:16:11:919 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Syncronize','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:17:46:532 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:17:46:684 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:17:47:186 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:17:48:848 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:17:48:960 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:17:49:468 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:18:11:485 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:18:11:601 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:18:12:101 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:18:18:113 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:14:123 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:14:243 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:14:758 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:15:802 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:16:014 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:16:526 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:17:750 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Syncronize','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:18:992 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:19:104 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:19:614 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:22:269 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:22:383 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:19:22:896 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:35:906 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:36:019 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:36:529 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:39:033 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '0','Generate','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:40:287 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:40:403 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:40:912 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:43:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:43:883 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:44:390 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:45:834 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:23:50:300 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:32:988 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:32:990 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:33:010 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:33:011 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:33:014 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:24:43:056 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:43:076 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:43:560 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:43:614 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:50:166 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:50:225 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:50:738 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:52:780 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:24:56:718 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:25:51:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:25:51:319 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:25:51:825 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:25:53:802 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:21:919 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:21:962 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:22:467 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:24:184 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:35:577 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:35:580 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:35:585 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:35:586 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:35:587 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:28:36:265 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:36:310 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:37:750 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:37:843 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:42:954 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:43:167 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:43:679 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:28:45:367 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Select','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:18:390 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:18:605 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:19:116 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:21:479 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Syncronize','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:22:922 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:23:156 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:23:665 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:25:767 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:25:970 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:26:486 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:27:153 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:27:662 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:29:28:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:33:41:775 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:33:42:220 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:33:42:732 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:33:45:771 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Syncronize','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:33:47:399 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:33:47:513 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:33:48:024 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:17:664 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:17:666 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:17:694 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:17:694 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:17:695 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:34:18:417 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:18:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:19:901 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:20:017 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:25:978 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:26:058 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:26:572 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:28:696 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Syncronize','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:29:874 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:30:095 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:34:30:606 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:35:44:620 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:35:44:870 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:35:45:384 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:35:47:166 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000345','Syncronize','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:35:48:375 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:35:48:583 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:35:49:091 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:23:149 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:23:263 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:23:763 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:51:167 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:51:280 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:51:785 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:54:130 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000500','Syncronize','Thread'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:55:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:55:409 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:55:922 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:58:007 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_UIDESK_Sync_TrxTicketAgent '30003000500','Syncronize','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:59:149 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:59:265 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:36:59:269 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:37:38:046 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_Sync_TrxTicketAgent '','DataTable','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:37:38:108 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:37:38:611 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:39:33:778 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:39:33:894 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:39:34:396 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:43:24:428 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:43:26:403 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:45:41:246 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:45:41:380 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:45:41:881 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:45:48:300 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:45:48:861 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:40:954 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:40:957 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:40:963 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:40:963 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:40:964 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:46:41:687 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:41:731 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:43:169 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:46:43:281 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:49:14:063 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:49:14:583 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:49:15:051 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:49:24:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:49:24:859 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:00:845 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:00:928 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:01:437 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:05:633 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:06:200 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:22:571 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:22:734 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:23:240 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:27:993 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:51:28:554 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:53:09:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:53:09:343 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:53:09:863 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:53:13:251 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:53:13:788 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:44:463 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:44:506 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:44:907 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:45:016 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:50:584 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:50:630 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:50:979 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK16'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:51:093 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:52:132 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK21'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:52:662 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK20'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:55:53:109 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:56:21:006 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:15:475 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:15:478 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:15:484 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:15:484 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:15:485 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:58:16:114 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:16:163 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:17:611 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:17:694 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:22:392 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:22:467 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:22:973 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:38:330 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:58:38:902 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:26:979 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:26:982 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:26:988 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:26:989 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:26:990 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 02:59:27:677 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:27:737 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:29:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:29:260 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:33:266 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:33:355 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:33:754 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:41:998 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 02:59:42:560 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:00:23:284 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:00:23:391 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:00:23:913 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:00:27:112 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:00:27:660 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:00:41:969 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82076204','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:00:42:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82076204','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:09:454 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:09:986 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:18:422 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_ReleaseOutbound '211991','82050934','1','Open','admin','Release',
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:19:851 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:19:944 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:19:967 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:32:068 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:01:32:615 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:25:970 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:26:098 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:26:608 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:35:044 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:35:618 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:42:303 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_ReleaseOutbound '211991','82050934','1','Open','admin','Release',
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:43:709 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:43:839 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:44:351 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:56:698 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:04:57:272 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Disable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:05:04:256 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_ReleaseOutbound '211991','82050934','1','Closed','admin','Release',
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:05:05:235 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:05:05:362 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:05:05:868 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:245 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:247 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:267 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:267 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:270 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:890 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:22:961 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:24:373 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:24:467 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:42:995 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:43:072 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:43:586 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:49:385 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '82050934','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:28:49:916 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','82050934','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:08:174 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:08:180 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:08:689 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:09:195 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:09:708 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK07'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:10:217 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK05'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:10:724 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:13:171 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2467','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:19:396 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2467','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:28:727 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2467','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:31:39:144 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '100','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:40:143 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:40:271 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:40:783 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:46:462 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '081248431650','admin','UIDESK76'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:33:47:011 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','081248431650','Enable'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:07:761 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_ReleaseOutbound '236505','081248431650','1','Closed','admin','Release',
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:09:026 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:09:155 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:34:09:657 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:36:50:637 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:36:50:730 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 03:36:51:243 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:04:59:398 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:04:59:488 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:00:003 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:16:843 PM
+---------------------------Success-------------------------------------------------------
+Message: exec V2_ReleaseOutbound '0','131950000012','0','0','admin','Distribute',
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:18:491 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:18:580 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:19:092 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:20:320 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:20:401 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:05:20:903 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:06:49:171 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK74'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:06:49:302 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:06:49:816 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:07:23:104 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '131950000012','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:07:23:221 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','131950000012','Change'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:07:30:101 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '131950000017','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:07:30:707 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','131950000017','Change'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:07:43:642 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '131950000008','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2022 04:07:44:268 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_ReleaseDataOutbound '0','admin','0','131950000008','Change'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,262 @@
+Time: 06/09/2022 09:53:30:733 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 09:53:57:322 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:13:851 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:30:638 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:35:723 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000021' And call_date between '2022-9-6 00:01' And '2022-9-6 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:35:729 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000021' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-9-6 00:01' And '2022-9-6 23:59' 
+Message: The process cannot access the file 'D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\ErrorLog\2022\06092022\06092022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecordsBigData(String tableType, String tableName, String paramQuery) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 268
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/09/2022 10:20:35:839 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000021' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-9-6' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:38:656 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='081245272671' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:38:679 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='081245272671' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:38:681 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:38:780 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='237306' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:38:784 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='237306' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:38:804 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:20:50:151 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='29082022' and call_polis_number = '82109471' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:23:18:146 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:23:53:291 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:25:33:639 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='081245272671' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:25:33:662 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='081245272671' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:25:33:665 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:25:33:666 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:25:33:689 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='237306' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:25:33:757 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='237306' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:25:34:032 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='29082022' and call_polis_number = '82109471' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:30:05:759 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='081245272671' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:30:05:790 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='081245272671' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:30:05:792 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:30:05:878 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='237306' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:30:05:889 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='237306' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:30:05:931 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:30:06:352 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='29082022' and call_polis_number = '82109471' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:34:11:696 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='082146520177' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:34:11:721 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='082146520177' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:34:11:722 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:34:11:920 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='237180' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:34:11:924 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='237180' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:34:12:025 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:34:12:101 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='29082022' and call_polis_number = '82109250' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:38:31:965 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='082146520177' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:38:31:989 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='082146520177' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:38:31:990 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:38:32:012 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='237180' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:38:32:012 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+Message: The process cannot access the file 'D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\ErrorLog\2022\06092022\06092022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/09/2022 10:38:32:096 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='237180' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 10:38:32:375 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='29082022' and call_polis_number = '82109250' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 01:42:45:487 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 01:43:15:024 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 02:05:22:542 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','081298471220'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/09/2022 02:05:29:797 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211216145450'
+---------------------------Success-------------------------------------------------------
+

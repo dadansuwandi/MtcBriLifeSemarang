@@ -1,0 +1,1411 @@
+Time: 09/03/2023 09:35:29:328 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:30:159 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:30:667 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:35:30:707 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:30:868 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:30:868 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:30:869 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 188
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 117
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:35:30:915 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 122
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:35:32:421 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:33:317 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:34:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:37:210 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:37:622 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:36:59:111 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:36:59:792 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:00:347 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:00:749 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:01:270 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:11:344 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:11:896 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','EMAIL-13','131950000003','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:11:951 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'EMAIL','UideskIndonesia','131950000003','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:12:131 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:12:189 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:12:340 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'EMAIL-13', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:12:381 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:12:541 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:12:757 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '221116163116','UideskIndonesia','131950000003','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:13:119 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:13:311 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'EMAIL-13','UideskIndonesia','131950000003','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:13:441 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:13:955 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:14:601 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:20:740 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:33:555 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:34:797 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:36:195 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:37:243 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:37:324 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:03:946 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:04:302 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '221116163116','UideskIndonesia','131950000003','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:04:463 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:04:954 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:05:473 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:05:510 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:405 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:767 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:882 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:919 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:964 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:965 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:966 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 188
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 117
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:971 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 122
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:41:39:073 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:39:703 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:40:818 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:41:158 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:41:662 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:54:326 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:54:911 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:55:194 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:55:546 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:55:780 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:02:229 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:02:729 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','EMAIL-13','131950000003','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:02:780 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'EMAIL','UideskIndonesia','131950000003','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:02:842 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:02:863 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:02:882 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'EMAIL-13', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:03:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:03:242 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:03:283 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '221116163116','UideskIndonesia','131950000003','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:03:421 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'EMAIL-13','UideskIndonesia','131950000003','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:03:764 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:04:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:05:403 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:05:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:06:535 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:12:178 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:13:804 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:14:878 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:15:964 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:16:220 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:37:569 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:37:660 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:37:954 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '221116163116','UideskIndonesia','131950000003','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:38:110 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:38:750 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:39:196 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:39:222 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:40:576 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '221116163116','20230309094239399','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<p>#SIM</p>
+','<p>#STNK</p>
+','1','Open','131950000003','202210241019152114123','Nurmansyah%20Candra','nurmansyahcs222@gmail.com','0812188858422','','nurmansyahcs22@gmail.com','0','Low','Corporations','CT3-00000','Email','2022-10-24','21','1','131950000003','1065','1','202210241019152114123', 'EMAIL-13', 'ContactChannel','0','EMAIL','Bringin Purna Jabatan'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:40:628 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_ListDataTransactionticket '221116163116','131950000003','EMAIL-13'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:43:32:499 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:43:37:604 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:43:39:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:43:40:738 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:43:43:737 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:43:43:761 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:04:454 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:04:596 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:04:909 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '221116163116','UideskIndonesia','131950000003','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:04:995 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:05:522 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:05:546 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:06:030 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:06:898 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '221116163116','20230309094406089','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<p>#CRDU1</p>
+','<p>#CRUD2</p>
+','1','Open','131950000003','202210241019152114123','Nurmansyah%20Candra','nurmansyahcs222@gmail.com','0812188858422','<p>sunter indah</p>
+','nurmansyahcs22@gmail.com','','High','Corporations','CT3-00000','Email','2023-03-09','21','1','131950000003','1065','1','202210241019152114123', 'EMAIL-13', 'ContactChannel','0','EMAIL','Bringin Purna Jabatan'
+Message: Violation of PRIMARY KEY constraint 'PK_TR_THREAD_ARCHIVE'. Cannot insert duplicate key in object 'dbo.TR_THREAD_ARCHIVE'. The duplicate key value is (EMAIL-13).
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 489
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:44:06:899 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '221116163116','20230309094406089','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<p>#CRDU1</p>
+','<p>#CRUD2</p>
+','1','Open','131950000003','202210241019152114123','Nurmansyah%20Candra','nurmansyahcs222@gmail.com','0812188858422','<p>sunter indah</p>
+','nurmansyahcs22@gmail.com','','High','Corporations','CT3-00000','Email','2023-03-09','21','1','131950000003','1065','1','202210241019152114123', 'EMAIL-13', 'ContactChannel','0','EMAIL','Bringin Purna Jabatan'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:06:952 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_ListDataTransactionticket '221116163116','131950000003','EMAIL-13'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:44:59:982 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_PublishTransaction '221116163116','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:00:458 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:01:201 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:01:401 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:01:657 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:01:915 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:49:123 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:49:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:50:051 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:50:917 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:51:073 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:52:097 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:52:730 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:53:901 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:54:740 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:45:55:253 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:11:857 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:12:496 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:12:734 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:12:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:12:774 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '221116163116','131950000003','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:12:908 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000003','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:13:255 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:13:718 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:13:761 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:13:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:34:049 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:34:511 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:34:918 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:34:938 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:34:956 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '221116163116','131950000003','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:35:022 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000003','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:35:337 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:35:581 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:35:850 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:46:36:027 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:007 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:201 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:392 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+Message: The conversion of the varchar value '131950000003' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertAgentAux(String TrxAux, String TrxUserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 180
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:393 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:422 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:423 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:424 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 188
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 117
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:428 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 122
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:47:52:121 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:53:144 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:54:484 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:54:666 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:55:641 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:56:197 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:56:428 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:56:832 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:58:272 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:58:370 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:02:778 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:03:286 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:03:337 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:03:355 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:03:392 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '221116163116','131950000003','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:03:783 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000003','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:03:807 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:04:306 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:04:827 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:48:05:440 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:02:956 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:04:163 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:04:191 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:04:267 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:04:290 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '221116163116','131950000003','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:04:449 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000003','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:04:494 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:05:085 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:05:576 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094406089','131950000003','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:06:051 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:12:973 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:13:577 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:13:913 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:13:983 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:14:002 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '221116163116','131950000003','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:14:206 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:14:460 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:14:568 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000003','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:14:942 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:57:15:243 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309094239399','131950000003','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:03:54:411 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:03:55:525 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:03:56:232 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:03:56:534 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:03:57:054 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:56:416 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:152 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','EMAIL-21','131950000003','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:200 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'EMAIL','UideskIndonesia','131950000003','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:503 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:555 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:675 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'EMAIL-21', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:853 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:898 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:975 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '221116163116','UideskIndonesia','131950000003','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:58:355 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'EMAIL-21','UideskIndonesia','131950000003','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:58:895 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:59:215 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:59:722 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:06:00:256 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000003','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:06:42:529 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:06:49:395 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:06:50:978 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:06:52:423 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:06:53:868 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:06:53:984 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:09:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','131950000003','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:09:397 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','131950000003','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:09:645 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '221116163116','UideskIndonesia','131950000003','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:09:896 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','131950000003','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:10:425 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:10:936 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','131950000003','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:10:961 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','131950000003','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:11:904 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '221116163116','20230309100711063','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<table align="left" border="0" cellpadding="0" cellspacing="0" style="width:`&quot;100%`&quot;">
+	<tbody>
+		<tr>
+			<td style="background-color:#bba555">&nbsp;</td>
+			<td style="background-color:#ffe599; width:100.0%">
+			<p><strong>CAUTION:</strong> Jangan klik link atau membuka lampiran terkecuali anda mengenali pengirim dan mengetahui bahwa isi dari email tersebut aman. Do not click links or open attachments unless you recognize the sender and know the content is safe.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>ini 2510 test email IN ya 02</p>
+','<p>Kalem gaes</p>
+','1','Open','131950000003','202210251600579385079','Nurmansyah%20Candra','nurmansyahcs222@gmail.com','0812188858422','','nurmansyahcs22@gmail.com','0','Low','Corporations','CT3-00000','Email','2022-10-25','21','1','131950000003','1065','1','202210251600579385079', 'EMAIL-21', 'ContactChannel','0','EMAIL','Bringin Purna Jabatan'
+Message: Violation of PRIMARY KEY constraint 'PK_TR_THREAD_ARCHIVE'. Cannot insert duplicate key in object 'dbo.TR_THREAD_ARCHIVE'. The duplicate key value is (EMAIL-21).
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 489
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 10:07:11:905 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '221116163116','20230309100711063','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<table align="left" border="0" cellpadding="0" cellspacing="0" style="width:`&quot;100%`&quot;">
+	<tbody>
+		<tr>
+			<td style="background-color:#bba555">&nbsp;</td>
+			<td style="background-color:#ffe599; width:100.0%">
+			<p><strong>CAUTION:</strong> Jangan klik link atau membuka lampiran terkecuali anda mengenali pengirim dan mengetahui bahwa isi dari email tersebut aman. Do not click links or open attachments unless you recognize the sender and know the content is safe.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>ini 2510 test email IN ya 02</p>
+','<p>Kalem gaes</p>
+','1','Open','131950000003','202210251600579385079','Nurmansyah%20Candra','nurmansyahcs222@gmail.com','0812188858422','','nurmansyahcs22@gmail.com','0','Low','Corporations','CT3-00000','Email','2022-10-25','21','1','131950000003','1065','1','202210251600579385079', 'EMAIL-21', 'ContactChannel','0','EMAIL','Bringin Purna Jabatan'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:11:965 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_ListDataTransactionticket '221116163116','131950000003','EMAIL-21'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:14:669 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_PublishTransaction '221116163116','131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:15:542 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:16:718 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:17:178 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:17:568 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:07:18:082 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:03:209 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:03:941 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:04:016 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:05:275 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:05:516 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:09:513 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:10:175 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:11:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:12:445 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:12:854 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:18:076 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:18:659 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309100711063','131950000003','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:18:777 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309100711063','131950000003','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:18:857 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309100711063','131950000003','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:18:879 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '221116163116','131950000003','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:19:596 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000003','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:19:699 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309100711063','131950000003','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:20:216 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20230309100711063','131950000003','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:20:707 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:09:21:335 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:10:20:269 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:10:21:036 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:10:21:086 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:10:22:334 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:10:22:627 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

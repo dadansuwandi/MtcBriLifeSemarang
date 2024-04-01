@@ -1,0 +1,15 @@
+Time: 10/02/2023 03:12:17:756 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/02/2023 03:13:14:273 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/02/2023 03:13:14:313 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='VEC6TJ4PZ3G00UOTGV2D1Z6U6QFI834YE6HGQFAY7Z5YKQWEQV' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+

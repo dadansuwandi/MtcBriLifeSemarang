@@ -1,0 +1,120 @@
+Time: 18/12/2023 09:28:59:481 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Aniyya','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:28:59:588 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:28:59:665 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Aniyya','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:28:59:666 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Aniyya' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:28:59:666 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Aniyya','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 18/12/2023 09:28:59:668 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 18/12/2023 09:28:59:841 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Aniyya' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:29:00:668 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Aniyya', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:29:00:685 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Aniyya','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:29:01:134 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Aniyya', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:29:01:161 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Aniyya','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:29:01:650 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Aniyya','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:29:01:666 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Aniyya','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:29:02:161 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Aniyya','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:28:406 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Aniyya' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:28:878 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Aniyya', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:28:893 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Aniyya','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:29:399 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Aniyya','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:29:885 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Aniyya', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:29:900 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Aniyya','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:30:400 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Aniyya','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/12/2023 09:33:30:924 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Aniyya','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,63 @@
+Time: 09/03/2023 09:38:12:166 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','131950000003','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:12:383 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '221116163116','20230309093811937','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<table align="left" border="0" cellpadding="0" cellspacing="0" style="width:`&quot;100%`&quot;">
+	<tbody>
+		<tr>
+			<td style="background-color:#bba555">&nbsp;</td>
+			<td style="background-color:#ffe599; width:100.0%">
+			<p><strong>CAUTION:</strong> Jangan klik link atau membuka lampiran terkecuali anda mengenali pengirim dan mengetahui bahwa isi dari email tersebut aman. Do not click links or open attachments unless you recognize the sender and know the content is safe.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Test email in 1</p>
+','<p>RIZAL 09032023</p>
+','1','Open','131950000003','202210241019152114123','Nurmansyah%20Candra','nurmansyahcs222@gmail.com','0812188858422','','nurmansyahcs22@gmail.com','0','Low','Corporations','CT3-00000','Email','2022-10-24','21','1','131950000003','1065','1','202210241019152114123', 'EMAIL-13', 'ContactChannel','0','EMAIL','Bringin Purna Jabatan'
+Message: Procedure or function 'Insert_Transaction' expects parameter '@UserCreate', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 489
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/03/2023 09:38:12:414 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '221116163116','20230309093811937','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<table align="left" border="0" cellpadding="0" cellspacing="0" style="width:`&quot;100%`&quot;">
+	<tbody>
+		<tr>
+			<td style="background-color:#bba555">&nbsp;</td>
+			<td style="background-color:#ffe599; width:100.0%">
+			<p><strong>CAUTION:</strong> Jangan klik link atau membuka lampiran terkecuali anda mengenali pengirim dan mengetahui bahwa isi dari email tersebut aman. Do not click links or open attachments unless you recognize the sender and know the content is safe.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Test email in 1</p>
+','<p>RIZAL 09032023</p>
+','1','Open','131950000003','202210241019152114123','Nurmansyah%20Candra','nurmansyahcs222@gmail.com','0812188858422','','nurmansyahcs22@gmail.com','0','Low','Corporations','CT3-00000','Email','2022-10-24','21','1','131950000003','1065','1','202210241019152114123', 'EMAIL-13', 'ContactChannel','0','EMAIL','Bringin Purna Jabatan'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:38:12:548 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_ListDataTransactionticket '221116163116','131950000003','EMAIL-13'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:28:568 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='1_Thread.aspx' OR UrlUser2='1_Thread.aspx' OR UrlUser3='1_Thread.aspx')
+---------------------------Success-------------------------------------------------------
+

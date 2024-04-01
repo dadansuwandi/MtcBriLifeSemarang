@@ -1,0 +1,80 @@
+Time: 11/12/2023 11:03:20:638 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1016882013','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:20:889 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:21:559 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','1016882013','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:21:599 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='1016882013' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:21:601 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1016882013','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/12/2023 11:03:21:605 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/12/2023 11:03:22:340 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='1016882013' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:23:711 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1016882013', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:24:017 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1016882013','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:24:080 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','1016882013','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:24:517 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1016882013','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:28:828 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1016882013', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:29:145 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1016882013','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 11:03:29:263 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','1016882013','Insert'
+---------------------------Success-------------------------------------------------------
+

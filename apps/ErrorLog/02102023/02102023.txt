@@ -1,0 +1,25 @@
+Time: 02/10/2023 08:24:20:490 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 02/10/2023 08:24:25:965 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/10/2023 08:24:31:900 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk3211'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/10/2023 08:35:46:387 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/10/2023 09:04:41:158 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxReleaseOutbound.aspx' OR UrlUser2='TrxReleaseOutbound.aspx' OR UrlUser3='TrxReleaseOutbound.aspx')
+---------------------------Success-------------------------------------------------------
+

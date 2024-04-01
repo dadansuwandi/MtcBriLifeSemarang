@@ -1,0 +1,217 @@
+Time: 10/07/2023 09:47:04:180 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 09:48:39:106 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='KV1I46HGCIXKCDBSKOHUAZ2Z4VJYETXASRH3OTBW0Q76G4WCPU' WHERE USERNAME ='131950000028'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 11:51:00:760 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 11:51:00:827 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000001'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 11:51:00:912 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='D63L1ZXK0HYE1K7A1KOGJN6PWDPL07B5E4PJ71SUAZE1TO2WJ5' WHERE USERNAME ='131950000001'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 11:51:01:021 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000001'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_login.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_login.aspx.vb:line 528
+   at ICC.auth_login.AccessLoginEpic(String UserName) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_login.aspx.vb:line 406
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/07/2023 05:32:44:426 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:33:05:456 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:33:33:860 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+Message: authority
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at ICC.auth_login.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_login.aspx.vb:line 323
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/07/2023 05:35:59:235 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:35:59:253 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:35:59:314 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:38:31:653 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:38:39:692 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='131950000004' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:39:07:877 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000004'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:39:45:157 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:39:48:619 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='131950000004' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:39:56:922 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000004'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:42:38:879 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:42:54:411 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:42:54:426 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='131950000004' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:42:54:447 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000004'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:43:15:367 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:43:15:381 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000004'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:44:16:852 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:44:16:862 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:44:16:872 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:44:16:958 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='IB7KSZLP152ZZELJXIF4LWMS1EJ3825CGUNHS3KHCNKPY20OF8' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:44:17:060 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_login.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_login.aspx.vb:line 529
+   at ICC.auth_login.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_login.aspx.vb:line 340
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/07/2023 05:44:52:588 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:44:52:600 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000004'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:48:25:348 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:48:25:366 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='DEWWEWE' and Password='21233'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:50:14:273 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:50:14:286 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!3232424'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:52:41:445 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:52:41:504 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:53:01:601 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:58:15:021 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 10/07/2023 05:59:53:140 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='UIA5ISP837ENF12UD7NAAKD52YJZPIF25RESOFAZMRIWU0UZ5R' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,85 @@
+Time: 17/12/2023 02:19:00:454 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Gestin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:02:593 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Gestin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:03:345 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:03:772 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Gestin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:03:772 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Gestin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:03:775 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Gestin','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/12/2023 02:20:03:777 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/12/2023 02:20:04:713 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Gestin' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:05:173 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Gestin', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:05:198 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Gestin','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:05:582 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Gestin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:05:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Gestin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:06:140 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Gestin', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:07:105 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Gestin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/12/2023 02:20:07:799 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Gestin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+

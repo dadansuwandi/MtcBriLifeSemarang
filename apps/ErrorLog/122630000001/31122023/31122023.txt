@@ -1,0 +1,85 @@
+Time: 31/12/2023 04:03:42:027 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '122630000001','Brilife123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:42:120 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:42:505 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','122630000001'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:42:542 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','122630000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:42:543 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='122630000001' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:42:545 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '122630000001','Brilife123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 31/12/2023 04:03:42:548 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Uidesk Semarang\Aplikasi\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 31/12/2023 04:03:43:100 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='122630000001' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:43:958 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '122630000001', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:44:019 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','122630000001','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:44:454 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','122630000001','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:44:480 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','122630000001','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:44:968 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','122630000001','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:44:991 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','122630000001','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/12/2023 04:03:45:537 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboard '122630000001', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+

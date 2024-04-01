@@ -1,0 +1,110 @@
+Time: 14/08/2023 08:23:31:273 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:23:32:207 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='MEBYT4Z6HLEL52WAHDKKTK2RY8H783S3JOY6IHQLLBJJROJ8LV' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:23:671 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:23:775 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='D7UJXYCPCGXUVKAF1SBBI88HUKQYJD8VM50SZSQMNEFGH3QYNA' WHERE USERNAME ='131950000004'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:29:999 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2023-8-14 00:01' And '2023-8-14 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:30:000 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2023-8-14' 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:30:000 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000004' And call_date between '2023-8-14 00:01' And '2023-8-14 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:36:957 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='082139261289' 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:36:964 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='082139261289' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:36:965 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:36:978 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='239259' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:37:004 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='239259' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:37:035 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:25:37:153 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='26122022' and call_polis_number = '2235.22.12.000006.00' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 06:20:55:697 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 06:20:56:250 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='XHDXZ3G22R3SCWFVZKBCVZFLMBHBNZH7A24P4Z3UGK7J01UYL2' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 07:24:33:148 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 07:24:33:702 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='UNNHD0K7MAB6RRMFB5NLWYNBBUPUXGPCNED62XSX45XHITW06G' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 07:48:29:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 07:48:29:395 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='KB8P31DX3WH7UE0PLOHZV62XZ2NE2RYF5NSLLVN07FAS382IVK' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:45:56:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 14/08/2023 08:45:56:448 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='AKO27TN1L0TFNZU8KGN0IUNL3MQ3VEQI1OW0EE75UQSA30LLJA' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

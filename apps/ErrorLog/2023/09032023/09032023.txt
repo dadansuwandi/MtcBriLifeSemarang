@@ -1,0 +1,85 @@
+Time: 09/03/2023 09:35:28:825 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:35:29:938 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='I0TBX3QFKCYJ7TNTOMY6A8I7WN5R5E4JGVHLBFA7273FAI4B40' WHERE USERNAME ='131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:12:131 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','nurmansyahcs22@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:37:13:428 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202210241019152114123' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:312 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:41:37:750 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ERLPWHRBBNLX72IHJABSR222LBFFYMGGIASO3WQUHU8KK30MZG' WHERE USERNAME ='131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:02:858 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','nurmansyahcs22@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:42:03:536 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202210241019152114123' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:40:176 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:50:958 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 09:47:51:185 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='EPHJ1OONSSK2FAZHITV0JO3OG6ZQ650S3NWHJ3BSEY45ZEC0A7' WHERE USERNAME ='131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:57:503 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','nurmansyahcs22@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 10:05:58:387 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202210251600579385079' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 11:39:14:772 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 11:39:15:171 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='MYC1IJKMFSSQZ11SS62AYMN407L7VTPLTJERD60V0FR0ICQ4F2' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 11:50:09:907 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 09/03/2023 11:50:10:157 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DQZYWHZEZ88Z4F3MOGRN5HEFAFR48AL3YF5IQPGECVAR5BL1C1' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

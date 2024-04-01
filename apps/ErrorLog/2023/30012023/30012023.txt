@@ -1,0 +1,35 @@
+Time: 30/01/2023 01:59:59:050 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/01/2023 01:59:59:064 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='IX2JG5XJID8MD3CWI8RSHDS1B0AGXKA8QMZZIGM2AHXGGSEKTI' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/01/2023 02:34:09:218 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/01/2023 02:34:09:229 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='F6613VIC5ZISZ3JSM7BLX3LYE5G1X5MLZCZQM0XJIYIEZWK3AH' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/01/2023 08:30:02:061 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/01/2023 08:30:02:086 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='HJ6UFJZNF6L8II3GKFGUS0RAKBHG3XVCDTWAK6SLS6ADHBQRAF' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/01/2023 10:44:29:584 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+

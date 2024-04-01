@@ -1,0 +1,118 @@
+Time: 26/05/2023 07:43:55:884 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '30003000500','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:43:55:959 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:43:56:185 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','30003000500','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:43:56:188 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='30003000500' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:43:56:198 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '30003000500','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 121
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 26/05/2023 07:43:56:243 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 26/05/2023 07:43:57:169 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='30003000500' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:43:58:329 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '30003000500', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:43:58:382 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:00:989 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '30003000500', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:01:461 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:04:147 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='30003000500' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:04:784 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','30003000500','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:05:720 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','30003000500','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:05:944 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:05:999 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:06:330 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','30003000500','UIDESK81'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:06:837 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','30003000500','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:07:348 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','30003000500','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:07:878 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting '30003000500','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 26/05/2023 07:44:08:370 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','30003000500','UIDESK73'
+---------------------------Success-------------------------------------------------------
+

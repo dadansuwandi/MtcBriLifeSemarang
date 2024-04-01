@@ -1,0 +1,35 @@
+Time: 24/01/2023 03:19:36:284 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 24/01/2023 03:19:36:297 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='F2FYM51FWX1MLXRGBU783ZG0TFMG4IDK78CODFYBSEPYV6ARSV' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 24/01/2023 03:20:07:367 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 24/01/2023 03:20:35:301 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 24/01/2023 03:20:35:337 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='VHWII4KT64X86CB57QTJLRG0PII74MRSZTHB8RKR4GIG81RBAZ' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 24/01/2023 03:21:00:477 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 24/01/2023 03:21:00:485 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DFUABV17ECXEP6ZMID786ENRPPJZY3P88WZ7GGBILTL0TITNFX' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+

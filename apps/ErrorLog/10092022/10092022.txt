@@ -1,0 +1,30 @@
+Time: 10/09/2022 09:19:36:599 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxReleaseOutbound.aspx' OR UrlUser2='TrxReleaseOutbound.aspx' OR UrlUser3='TrxReleaseOutbound.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/09/2022 09:19:36:727 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxReleaseOutbound.aspx' OR UrlUser2='TrxReleaseOutbound.aspx' OR UrlUser3='TrxReleaseOutbound.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/09/2022 09:19:36:857 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxReleaseOutbound.aspx' OR UrlUser2='TrxReleaseOutbound.aspx' OR UrlUser3='TrxReleaseOutbound.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/09/2022 09:30:32:594 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxReleaseOutbound.aspx' OR UrlUser2='TrxReleaseOutbound.aspx' OR UrlUser3='TrxReleaseOutbound.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/09/2022 07:54:43:438 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxReleaseOutbound.aspx' OR UrlUser2='TrxReleaseOutbound.aspx' OR UrlUser3='TrxReleaseOutbound.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/09/2022 08:41:12:362 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxReleaseOutbound.aspx' OR UrlUser2='TrxReleaseOutbound.aspx' OR UrlUser3='TrxReleaseOutbound.aspx')
+---------------------------Success-------------------------------------------------------
+

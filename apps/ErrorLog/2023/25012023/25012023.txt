@@ -1,0 +1,25 @@
+Time: 25/01/2023 09:01:51:725 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/01/2023 09:01:51:803 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DWDCNWCNB1QU2H1PXBWAC7X2PW155SZCYOZNRUDQFYZ6ZILER8' WHERE USERNAME ='Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/01/2023 11:24:42:241 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/01/2023 11:24:42:315 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='VU4EF0FU87IIEK402G2XFB2I86G211QPUUYTQEL2TMF2D6Y68Y' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/01/2023 11:24:54:828 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','220304155352'
+---------------------------Success-------------------------------------------------------
+

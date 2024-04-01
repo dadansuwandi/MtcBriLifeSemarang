@@ -1,0 +1,100 @@
+Time: 25/07/2023 03:04:43:719 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'walk01','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:44:049 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:44:454 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','walk01','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:44:497 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='walk01' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:44:499 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'walk01','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 25/07/2023 03:04:44:501 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 25/07/2023 03:04:44:900 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='walk01' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:45:817 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'walk01', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:46:231 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','walk01','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:46:254 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','walk01','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:47:737 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'walk01', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:47:801 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','walk01','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:04:48:362 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','walk01','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:05:03:435 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='walk01' And Url='TrmMultiChannel.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:05:04:020 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','walk01','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:05:04:515 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','walk01','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:05:05:040 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','walk01','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/07/2023 03:06:13:384 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','walk01','Insert'
+---------------------------Success-------------------------------------------------------
+

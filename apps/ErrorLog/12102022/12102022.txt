@@ -1,0 +1,20 @@
+Time: 12/10/2022 09:00:53:717 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmUserAdd.aspx' OR UrlUser2='TrmUserAdd.aspx' OR UrlUser3='TrmUserAdd.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2022 02:00:13:135 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmUserAdd.aspx' OR UrlUser2='TrmUserAdd.aspx' OR UrlUser3='TrmUserAdd.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2022 04:44:45:615 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmMailSystem.aspx' OR UrlUser2='TrmMailSystem.aspx' OR UrlUser3='TrmMailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2022 10:12:49:157 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmUserAdd.aspx' OR UrlUser2='TrmUserAdd.aspx' OR UrlUser3='TrmUserAdd.aspx')
+---------------------------Success-------------------------------------------------------
+

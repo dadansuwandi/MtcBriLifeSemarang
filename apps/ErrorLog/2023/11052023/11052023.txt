@@ -1,0 +1,90 @@
+Time: 11/05/2023 09:03:16:995 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 09:03:17:051 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='S5J72D3FYVL8P7IN2RGOS4D5SNFTIYBKUKSUQPYNWYZVG2JIC1' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 09:13:15:118 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 09:13:15:165 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='G5QRYI0F04J2DW67CVWLY4INHHCTEOQS8X8E560V1C72HUFOEU' WHERE USERNAME ='131950000001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 09:15:20:990 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','220429131944'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:10:57:028 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:12:20:465 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:12:20:479 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BQ03GZXZGR0DN3KV1IAAFE0YVR80G7WPGDG1EVC03CW51Y0EF7' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:12:33:566 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211221152303'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:39:24:957 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:41:20:033 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:41:20:074 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='1WNJCASMGJ6C2XPB4EWK30V4Z4L3CYTHFBO86ZT8KF427LG6S6' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:43:49:891 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:43:55:899 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:43:55:949 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='3JEXO3MOSM26JQTILSI4BVJFMAGI1EF0H5VK5MPK56HJ4DG3S2' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:45:06:388 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:45:06:435 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='QUV86WGETOS2TEN76TJVJ6OPGE3XNDJYS8E6JE7LGCORUEMBMW' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/05/2023 11:47:12:174 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211221152303'
+---------------------------Success-------------------------------------------------------
+
